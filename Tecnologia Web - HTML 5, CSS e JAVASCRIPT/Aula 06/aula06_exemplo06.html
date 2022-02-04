@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Aula 06 - Exemplo 06</title>
+			<script type="text/javascript">
+				
+				function teste ()
+				{
+					alert ("Oi mundo!")
+					// bloco de comandos 
+
+
+				}
+
+				teste ();
+
+				function tempo ()
+				{
+					var data = new Date ();
+					var hora = data.toLocaleTimeString();
+
+					document.getElementById("campo").innerHTML = hora;
+
+				}
+
+				setInterval (tempo , 1000);
+
+
+			</script>
+	</head>
+	<body>
+
+		<button onclick="setTimeout(teste , 3000);"> Click aqui para chamar a função </button>
+
+		<div id="campo"></div>
+		
+	</body>
+</html>

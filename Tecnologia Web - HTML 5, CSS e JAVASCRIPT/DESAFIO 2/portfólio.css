@@ -1,0 +1,19 @@
+
+body { position: relative; background-color: #001931; margin-left: 35%; margin-top: 5%;}
+
+h2 {margin: 1em; color: white; font-size: 2em;}
+
+h3 {margin: 0.5em; color: white; font-size: 1.5em;}
+
+p {margin: 0.5em; color: white; font-size: 2em;}
+
+li {color: white;}
+
+table {margin: 10em;}
+
+header { position: relative; width: 500px; height: 35px; border: white; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+
+ 
+  #nav-2 {margin-left: 18px;}
+
+  #nav-3 {margin-left: 18px;}
